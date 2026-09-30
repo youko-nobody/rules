@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "description": "Media service endpoints extracted from the supplied route list.",
+  "entries": [
+    {
+      "route": "direct",
+      "name": "小姨子线路",
+      "host": "gf.emby.fan",
+      "port": 4443
+    },
+    {
+      "route": "direct",
+      "name": "YounoAir线路",
+      "host": "7skno97f.younoair.de",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "CineTrail公费线路",
+      "host": "vip.cinetrail.live",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "Peach线路",
+      "host": "white.embymv.link",
+      "port": 8443
+    },
+    {
+      "route": "direct",
+      "name": "乐蛙线路",
+      "host": "emby.taotu.ink",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "青柠映画线路",
+      "host": "yty675hj45.nms267.top",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "予初线路",
+      "host": "aaa.yusen6.ccwu.cc",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "NyaMedia线路",
+      "host": "emby.bangumi.ca",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "银河列车线路",
+      "host": "yuanshen.help",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "emos线路",
+      "host": "video.emos.best",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "二楼有请线路",
+      "host": "emby.huangmin.cc.cd",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "doubon线路",
+      "host": "onatoshi.114514.quest",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "ETFLIX公益线路",
+      "host": "goemby.entertang.work",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "橘映线路",
+      "host": "www.525778.xyz",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "飞幕线路",
+      "host": "feimu.tv",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "ChilledMelon线路",
+      "host": "us.chilledmelon.com",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "随时跑路线路",
+      "host": "emby.kingemby.com",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "Msky公益线路",
+      "host": "gcf.betop.uk",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "折纸线路",
+      "host": "emby101.origamiart.uk",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "M Mini线路",
+      "host": "minicf.mebimmer.de",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "Chapanda线路",
+      "host": "emby.teawaya.com",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "We线路",
+      "host": "a.wedg.top",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "EOOS公益线路",
+      "host": "www.eoos.top",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "結束バンド线路",
+      "host": "genshin.biliblili.uk",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "NayOvO线路",
+      "host": "nay.007.us.kg",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "飞了个喵线路",
+      "host": "gy.meowfly.de",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "西瓜线路",
+      "host": "www.yuntv.de",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "这只猫线路",
+      "host": "eb.zzm.li",
+      "port": 443
+    },
+    {
+      "route": "direct",
+      "name": "乐观线路",
+      "host": "emby.dijia.de",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "CineTrail公益线路",
+      "host": "cf.aixj.de",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "Ok线路",
+      "host": "link00.okemby.org",
+      "port": 8443
+    },
+    {
+      "route": "proxy",
+      "name": "Nebula星云线路",
+      "host": "emby.nebula-media.org",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "nox线路",
+      "host": "test.inemby.us.ci",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "SNTP Media Lite公益线路",
+      "host": "lite.cn2gias.uk",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "非越媒体库线路",
+      "host": "cf.sfcj.org",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "稳健线路",
+      "host": "m.wenjian.de",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "KL线路",
+      "host": "tyemby.klplay.top",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "星影线路",
+      "host": "xying1314.xyz",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "龟仙屋线路",
+      "host": "zxngw-direct.gxwplay.top",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "宸澄线路",
+      "host": "media.wybcs.work",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "Ask Ash线路",
+      "host": "ask.ash.yt",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "二刺螈线路",
+      "host": "media.nijigem.by",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "CineTrailPorn线路",
+      "host": "ct.yingji.lol",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "流光画廊线路",
+      "host": "jf.dqx99999.shop",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "步兵营地线路",
+      "host": "bb.emby.edu.kg",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "NiuBi线路",
+      "host": "772111.xyz",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "PlayZ线路",
+      "host": "playzemby.mjji.de",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "帝线路",
+      "host": "emby.di0.uk",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "STAR.CORE线路",
+      "host": "emby.staryuki.com",
+      "port": 443
+    },
+    {
+      "route": "proxy",
+      "name": "风月阁线路",
+      "host": "emby.hellohk.me",
+      "port": 443
+    }
+  ]
+}
