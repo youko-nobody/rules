@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "description": "User-supplied manual Clash and Surge domain rules.",
+  "entries": [
+    {
+      "route": "direct",
+      "type": "DOMAIN",
+      "host": "dm.412789.xyz"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN",
+      "host": "dm.wodenas.xin"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN",
+      "host": "danmu.tty.mom"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN",
+      "host": "myg.0008866.xyz"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "zhezhi.art"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "origamiart.uk"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "liuer.linkpc.net"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "liminalnet.com"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "yusen.cc.cd"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "yusen.cyou"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "585820.xyz"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "cmecloud.cn"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "huangmin.cc.cd"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "ztuma.com"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "eeew.eu.org"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "stluma.com"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "mobaiemby.site"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "emby.fan"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "111848.xyz"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "xueshan.liminalnet.com"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "qzz.io"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "emos.best"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "cn2gias.uk"
+    },
+    {
+      "route": "proxy",
+      "type": "DOMAIN-SUFFIX",
+      "host": "lightting.net"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "0008866.xyz"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "emby.yun"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "lyezi.xyz"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "lyezi.cc"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "taotu.in"
+    },
+    {
+      "route": "direct",
+      "type": "DOMAIN-SUFFIX",
+      "host": "223789.xyz"
+    }
+  ]
+}

@@ -66,6 +66,43 @@ python scripts/build_rules.py --check
 
 GitHub Actions 会在提交时自动检查生成文件是否与数据源一致。
 
+## 手动规则分支
+
+`manual-rules` 分支另含你手动整理的规则，原有 `main` 分支规则不受影响。源数据在 `data/manual-rules.json`，生成文件按策略拆分，并保留原始 `DOMAIN` / `DOMAIN-SUFFIX` 匹配类型。使用 `python scripts/build_manual_rules.py` 生成，或加 `--check` 校验。
+
+Clash 引用方式（把规则放在原 Emby 规则集之前，以便手动规则优先命中）：
+
+```yaml
+rule-providers:
+  manual-proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/youko-nobody/rules/manual-rules/rules/clash/manual-proxy.yaml
+    path: ./ruleset/manual-proxy.yaml
+    interval: 86400
+  manual-direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/youko-nobody/rules/manual-rules/rules/clash/manual-direct.yaml
+    path: ./ruleset/manual-direct.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,manual-proxy,Emby代理
+  - RULE-SET,manual-direct,DIRECT
+```
+
+Surge 在 `[Rule]` 中添加：
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/youko-nobody/rules/manual-rules/rules/surge/manual-proxy.list,Emby代理
+RULE-SET,https://raw.githubusercontent.com/youko-nobody/rules/manual-rules/rules/surge/manual-direct.list,DIRECT
+```
+
+代理规则放在直连规则之前，可确保 `myg.0008866.xyz` 先命中精确代理规则，再由 `0008866.xyz` 后缀规则处理其余子域名。
+
 ## 发布到 GitHub
 
 ```bash
